@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/userAvatarIW"
+        android:layout_width="80dp"
+        android:layout_gravity="center"
+        android:layout_height="80dp" />
+    <EditText
+        android:id="@+id/userNickNameED"
+        android:hint="@string/userNickNameHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/userPasswordED"
+        android:hint="@string/userPasswordHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/userRepitPasswordEd"
+        android:hint="@string/userRepitPassHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/userEmailED"
+        android:hint="@string/userEmailHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/saveUserDateBtn"
+            android:layout_gravity="center"
+            android:text="@string/saveText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+</LinearLayout>
